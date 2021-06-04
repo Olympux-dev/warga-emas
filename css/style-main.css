@@ -7209,7 +7209,7 @@ blockquote p {
     margin-top: 0px;
     max-width: 274px;
     padding: 0px !important;
-    margin: 0px !important;
+    margin: 10px 0px 0px 0px !important;
   }
   .logo-pic-only {
     display: none;
@@ -7219,6 +7219,9 @@ blockquote p {
   }
   .logo-full {
     display: block;
+  }
+  .ml-120 {
+    margin-left: 104px !important;
   }
 }
 @media only screen and (min-width: 377px) {
@@ -7251,6 +7254,7 @@ blockquote p {
     display: block;
   }
   .logo-text-only {
+    padding-top: 5px;
     display: block;
   }
   .logo-full {
