@@ -7199,13 +7199,34 @@ blockquote p {
   margin-right: 10px;
 }
 /* -------- Custom Olympux Dev Style ---------- */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 376px) {
   .navbar-logo-container {
-    padding-bottom: 8px;
+    padding-bottom: 4px;
   }
   .logo-text-container {
     margin-top: 0px;
-    max-width: 470px;
+    max-width: 284px;
+    /*height: 82px;*/
+    padding: 0px !important;
+    margin: 0px !important;
+  }
+  .logo-pic-only {
+    display: none;
+  }
+  .logo-text-only {
+    display: none;
+  }
+  .logo-full {
+    display: block;
+  }
+}
+@media only screen and (min-width: 377px) {
+  .navbar-logo-container {
+    padding-bottom: 4px;
+  }
+  .logo-text-container {
+    margin-top: 0px;
+    max-width: 308px;
     /*height: 82px;*/
     padding: 0px !important;
     margin: 0px !important;
