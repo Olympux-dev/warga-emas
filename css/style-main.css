@@ -7198,3 +7198,31 @@ blockquote p {
   height: 42px;
   margin-right: 10px;
 }
+/* -------- Custom Olympux Dev Style ---------- */
+@media only screen and (max-width: 600px) {
+  .logo-pic-only {
+    display: none;
+  }
+
+  .logo-text-only {
+    display: none;
+  }
+
+  .logo-full {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 601px) {
+  .logo-pic-only {
+    display: block;
+  }
+
+  .logo-text-only {
+    display: block;
+  }
+
+  .logo-full {
+    display: none;
+  }
+}
