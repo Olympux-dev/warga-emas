@@ -81,6 +81,7 @@ This file contains the common styles of this theme.
 @import "../css/flaticon-set-medical.css";
 @import "../css/utility-classes.css";
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800|family=Raleway:400,200,300,500,600,700,800,900|family=Titillium+Web:400,200,300,600,700,900);
+@import url(https://fonts.googleapis.com/css2?family=Nobile&display=swap);
 /*
  * Typography.less
  * -----------------------------------------------
@@ -111,9 +112,10 @@ html {
 }
 body {
   line-height: 1.7;
-  color: #666666;
+  color: #ffffff;
   font-size: 14px;
-  font-family: 'Open Sans', sans-serif;
+  /*font-family: 'Open Sansx', sans-serif;*/
+  font-family: 'Nobile', sans-serif;
   background-color: #fff;
 }
 a {
@@ -163,7 +165,7 @@ h1,
 h2,
 .h1,
 .h2 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Nobile', sans-serif;
   font-weight: 700;
   line-height: 1.42857143;
   color: #333333;
@@ -194,7 +196,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Nobile', sans-serif;
   font-weight: 700;
   line-height: 1.42857143;
   color: #333333;
@@ -245,10 +247,10 @@ form {
 }
 /* -------- Custom Font Family ---------- */
 .font-opensans {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Nobile', sans-serif;
 }
 .font-raleway {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Nobile', sans-serif;
 }
 .font-titillium {
   font-family: 'Titillium Web', sans-serif;
@@ -1358,7 +1360,7 @@ section > .container-fluid {
 .menu-full-page #fullpage-nav li a {
   color: #111;
   font-size: 18px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Nobile', sans-serif;
   text-decoration: none;
   font-weight: 400;
   text-transform: uppercase;
@@ -3177,7 +3179,7 @@ textarea {
   background: none repeat scroll 0 0 transparent;
   border: 1px solid #ccc;
   border-radius: 3px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Nobile', sans-serif;
   height: 18px;
   left: 2.8571em;
   line-height: 1;
@@ -5745,7 +5747,7 @@ blockquote p {
 }
 .nav-tabs > li > a {
   border-radius: 0;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Nobile', sans-serif;
   font-size: 12px;
   color: #555555;
   padding: 12px 20px;
@@ -6914,10 +6916,10 @@ blockquote p {
   color: #c0c0c0;
 }
 .widget .list-border li {
-  border-bottom: 1px dashed #d3d3d3;
+  border-bottom: 1px dashed #ffffff;
 }
 .widget.dark .list-border li {
-  border-bottom: 1px dashed #404040;
+  border-bottom: 1px dashed #ffffff;
 }
 /* -------- Footer & Sidebar Widgets ---------- */
 .widget {
@@ -7151,12 +7153,12 @@ blockquote p {
   background: #fafafa;
 }
 .footer a {
-  color: #808080;
+  color: #fcfcfc;
 }
 .footer a:focus,
 .footer a:hover,
 .footer a:active {
-  color: #666666;
+  color: #fcfcfc;
 }
 .footer .widget .widget-title {
   margin-top: 0px;
