@@ -1,0 +1,23 @@
+/* custom CSS */
+
+/* For desktop: */
+@media only screen and (min-width: 601px) {
+	.logo-body-desktop {
+		display: block;
+	}
+	.logo-body-mobile {
+		display: none;
+	}	
+}
+/* For mobile phones: */
+@media only screen and (max-width: 600px) {
+	.header-wrap{
+		padding: 14px 10px;
+	}
+	.logo-body-desktop {
+		display: none;
+	}	
+	.logo-body-mobile {
+		display: block;
+	}
+}
